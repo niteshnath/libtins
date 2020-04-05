@@ -180,7 +180,9 @@ public:
         PKTAP,
         MPLS,
         UNKNOWN = 999,
-        USER_DEFINED_PDU = 1000
+        USER_DEFINED_PDU = 1000,
+        SSDP = 1001,
+        MDNS = 1002,
     };
     
     /**
